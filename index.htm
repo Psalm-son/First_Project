@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lions Records</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo"> <img src="IMAGES/logo.png" alt=""></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#albums">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="homepage">
+        <h1>LIONS ENTERTAINMENT</h1>
+        <p>Your best sound, our passion</p>
+       <a href="#bookingForm"> <button class="book-btn" b>
+        Book Session Now
+    </button></a>
+    <div class="cont">
+        <div class="c1">1</div>
+        <div class="c2">2</div>
+        <div class="c3">3</div>
+    </div>
+   
+    </section>
+
+
+    <section id="about" class="about-section">
+        <div class="about-image">
+            <img src="images/abt.jpg" alt="Image of recording studio">
+        </div>
+        <div class="about-content">
+            <h2>About Lions Records</h2>
+            <p>
+                Lions Entertainment is a recording studio owned by Startup Lions Talent Hub, located near the shores of Lake Turkana. It serves as a creative space where talented individuals develop and refine their skills in poetry, songwriting, and rapping. Dedicated to discovering and nurturing talent, Lions Entertainment empowers artists to make a global impact with their voices.
+            </p>
+        </div>
+    </section>
+
+    <section id="albums" class="services-section">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <img src="images/service1.jpg" alt="Service 1">
+            <h3>Music Production</h3>
+            <p>We offer state-of-the-art recording and mixing services to bring your music to life.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/service3.jpg" alt="Service 3">
+            <h3>Album Promotion</h3>
+            <p>Promote your music to reach a broader audience.</p>
+        </div>
+        <div class="service-card">
+            <img src="images/service2.jpg" alt="Service 2">
+            <h3>Sound Engineering</h3>
+            <p>Professional sound engineering for a crisp and clear sound.</p>
+        </div>
+    </section>
+
+    <section id="bookingForm" class="booking-section">
+        <h2>Book a Studio Session</h2>
+        <form action="#" method="post">
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+    
+            <label for="time">Select Time Slot:</label>
+            <select id="time" name="time" required>
+                <option value="9:00 AM - 11:00 AM">9:00 AM - 11:00 AM</option>
+                <option value="11:30 AM - 1:30 PM">11:30 AM - 1:30 PM</option>
+                <option value="2:00 PM - 5:00 PM">2:00 PM - 5:00 PM</option>
+            </select>
+    
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+            <button type="submit" class="book-btn">Confirm Booking</button>
+        </form>
+    </section>
+    
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Lions Records. All rights reserved.</p>
+        <p>Email: <a href="mailto:info@lionsrecords.com">info@lionsrecords.com</a></p>
+        <p>Phone: +254 123 456 789</p>
+    </footer>
+
+    <script src="lionent.js"></script>
+</html
+</body>
+
+</html>
